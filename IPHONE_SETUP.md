@@ -53,15 +53,19 @@ Open the URL shown (usually `http://localhost:4173`) and test sign-in.
 2. **Create application** → **Connect to Git**
 3. Select repo: **avishayal-source/coaching-records-pwa**
 4. Build settings:
-   - **Framework preset:** None (or Vite)
    - **Build command:** `npm run build`
    - **Build output directory:** `dist`
-5. **Environment variables** (Production):
+   - **Deploy command:** `npx wrangler deploy` (repo includes `wrangler.jsonc`)
+5. **Environment variables** (Production, **build** time):
    - Name: `VITE_GOOGLE_CLIENT_ID`
    - Value: your Client ID (same as `.env`)
 6. **Save and Deploy**
 
 **Expect:** after 1–3 minutes, a URL like `https://coaching-records-pwa.pages.dev`
+
+**If deploy fails with “Worker already exists”:** ensure `wrangler.jsonc` is in the repo (name must match `coaching-records-pwa`) and redeploy.
+
+**Alternative (classic Pages, no Wrangler):** leave **Deploy command** empty; set output directory to `dist` only.
 
 **Option B — Manual upload (one-time)**
 
