@@ -11,7 +11,8 @@ That's it. No API keys, no technical setup.
 
 ## For the person who deploys (you, once)
 
-See **[WINDOWS_SETUP.md](./WINDOWS_SETUP.md)** — about 15 minutes on Windows: Google Cloud (Drive API + one OAuth ID), build, upload to Cloudflare Pages.
+- **Windows + local test:** [WINDOWS_SETUP.md](./WINDOWS_SETUP.md)
+- **Deploy + iPhone (PWA):** [IPHONE_SETUP.md](./IPHONE_SETUP.md)
 
 You put **one value** in `.env` before building (`VITE_GOOGLE_CLIENT_ID`). End users never see that file.
 
