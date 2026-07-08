@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Coaching records">
+  <rect width="512" height="512" rx="96" fill="#1a5fb4"/>
+  <path fill="#ffffff" d="M128 144h256v48H128zm0 112h256v48H128zm0 112h176v48H128z"/>
+  <circle cx="368" cy="368" r="56" fill="#62a0ea"/>
+  <path fill="#ffffff" d="M352 368h32v48h-32zm16-32a16 16 0 1 1 0-32 16 16 0 0 1 0 32z"/>
+</svg>
